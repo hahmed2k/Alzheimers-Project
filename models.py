@@ -1,4 +1,5 @@
 import torch.nn as nn
+import torch
 
 class AlzheimerMLP(nn.Module):
     def __init__(self, num_numerical, cat_sizes, embedding_dim=8, hidden_dims=[128, 64], dropout=0.2):
