@@ -1,6 +1,4 @@
-# Alzheimers-Project
-Project title: Predicting Alzheimer's Disease: A Comparative Study of Multilayer Perceptron & Tab Transformer Models
-
+# Predicting Alzheimer's Disease: A Comparative Study of Multilayer Perceptron & Tab Transformer Models
 
 ## Project Overview
 
