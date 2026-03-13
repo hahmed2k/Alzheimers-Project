@@ -8,7 +8,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 def train_model(model, train_loader, val_loader, class_weights, epochs=50, lr=0.001, patience=15):
     criterion = nn.BCEWithLogitsLoss(pos_weight=class_weights[1])
     optimizer = optim.Adam(model.parameters(), lr=lr)
-    scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=5, verbose=True)
+    scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=5)
     best_val_loss = float('inf')
     patience_counter = 0
     train_losses, val_losses = [], []
