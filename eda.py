@@ -30,8 +30,7 @@ sns.heatmap(corr_matrix, annot=False, cmap='coolwarm', linewidths=0.5)
 plt.title('Correlation Heatmap')
 plt.show()
 
-# Feature Importance (using train data example)
-# Assume X_train_num, y_train from preprocess; for standalone, use full
+# Feature Importance
 rf = RandomForestClassifier(random_state=42)
 rf.fit(num_features.drop('Diagnosis', axis=1), df['Diagnosis'])
 importances = rf.feature_importances_
