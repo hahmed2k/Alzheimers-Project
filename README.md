@@ -13,6 +13,9 @@ Through comparative experimentation and performance evaluation using metrics suc
 
 ## Setup Instructions
 
+See requirements.txt
+
+(Placeholder for instructions)
 
 ## Required dependencies
 
