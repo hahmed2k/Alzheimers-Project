@@ -22,6 +22,19 @@ sns.boxplot(x='Diagnosis', y='BMI', data=df, palette='viridis')
 plt.title('BMI vs. Diagnosis')
 plt.show()
 
+# Binary Feature Association
+binary_features = [
+    'Smoking', 'FamilyHistoryAlzheimers', 'CardiovascularDisease',
+    'Diabetes', 'Depression', 'HeadInjury', 'Hypertension',
+    'MemoryComplaints', 'BehavioralProblems',
+    'Confusion', 'Disorientation', 'PersonalityChanges',
+    'DifficultyCompletingTasks', 'Forgetfulness'
+]
+
+for feature in binary_features:
+    print(f"\n=== {feature} ===")
+    print(pd.crosstab(df[feature], df['Diagnosis'], normalize='index'))
+
 # Correlation Heatmap
 num_features = df.select_dtypes(include=[np.number])
 corr_matrix = num_features.corr()
