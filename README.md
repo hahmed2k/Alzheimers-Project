@@ -16,6 +16,12 @@ Through comparative experimentation and performance evaluation using metrics suc
 
 ## Required dependencies
 
+Project requires Python versions 3.8+ and the following libraries:
+- Pandas: Used for data loading, cleaning, and structured manipulation of Alzheimer's dataset
+- NumPy: Supports large, multi-dimensional array processing and mathematical functions
+- Scikit-Learn: Used primarily for data preprocessing (stratified sampling/splitting, scaling, etc)
+- PyTorch: The core deep learning framework used to build, train, and optimize MLP and TabTransformer models
+- Matplotlib & Seaborn: Used for EDA, and related visualizations
 
 ## How to train the model
 
