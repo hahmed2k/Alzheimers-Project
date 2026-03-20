@@ -1,7 +1,6 @@
 # Predicting Alzheimer's Disease: A Comparative Study of Multilayer Perceptron & Tab Transformer Models
 
 ## Project Overview
-
 This project explores the use of deep learning models for predicting Alzheimer’s disease diagnosis using structured clinical and lifestyle data. Alzheimer’s disease is a progressive neurodegenerative condition that affects memory, cognitive functioning, and daily living abilities, making early identification an important objective in healthcare analytics. Leveraging machine learning techniques on patient health data can help uncover patterns associated with disease risk and support decision-making in clinical settings.
 
 The task is formulated as a binary classification problem, where the goal is to predict whether a patient has been diagnosed with Alzheimer’s disease based on demographic information, lifestyle factors, medical history, clinical measurements, cognitive assessments, and reported symptoms. The dataset consists of heterogeneous tabular features, including continuous, categorical, and binary variables, presenting challenges such as feature scaling, moderate class imbalance, and complex nonlinear relationships.
@@ -23,7 +22,6 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-
 ### For Windows:
 ----------------
 ```
@@ -33,10 +31,9 @@ pip install -r requirements.txt
 ```
 
 Step 3 - Download dataset:
-Kaggle link: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
+https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
 
 ## Required dependencies
-
 Project requires Python versions 3.8+ and the following libraries:
 - Pandas: Used for data loading, cleaning, and structured manipulation of Alzheimer's dataset
 - NumPy: Supports large, multi-dimensional array processing and mathematical functions
