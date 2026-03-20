@@ -32,7 +32,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Step 4 - Download dataset:
+Step 3 - Download dataset:
 Kaggle link: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
 
 ## Required dependencies
