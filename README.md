@@ -12,10 +12,25 @@ Through comparative experimentation and performance evaluation using metrics suc
 
 
 ## Setup Instructions
+Step 1 - Before creating a virtual environment, run the following in terminal:
+git clone <https://github.com/hahmed2k/Alzheimers-Project.git>
 
-See requirements.txt
+Step 2 - To avoid version-related issues, set up a virtual environment & install dependencies, run:
 
-(Placeholder for instructions)
+For Mac/Linux
+-------------
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+For Windows
+------------
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+
+Step 4 - Download dataset:
+Kaggle link: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
 
 ## Required dependencies
 
