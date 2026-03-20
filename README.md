@@ -16,16 +16,16 @@ Step 1 - Before creating a virtual environment, run the following in terminal:
 git clone <https://github.com/hahmed2k/Alzheimers-Project.git>
 Step 2 - To avoid version-related issues, set up a virtual environment & install dependencies, run:
 
-For Mac/Linux:
--------------
+### For Mac/Linux:
+------------------
 ```
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-For Windows:
-------------
+### For Windows:
+----------------
 ```
 python -m venv venv
 venv\Scripts\activate
