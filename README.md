@@ -13,27 +13,16 @@ Through comparative experimentation and performance evaluation using metrics suc
 
 ## Setup Instructions
 
-Step 1 - Before creating a virtual environment, clone the repository using URL: https://github.com/hahmed2k/Alzheimers-Project.git
+Step 1 - Download dataset: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
 
-Step 2 - To avoid version-related issues, set up a virtual environment & install dependencies, run:
+Step 2 - Download 'Alzheimer's Disease Prediction - Complete Notebook.ipynb' file.
 
-### For Mac/Linux:
-------------------
+Step 3 - Run the following in terminal
 ```
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-### For Windows:
-----------------
-```
-python -m venv venv
-venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Step 3 - Download dataset:
-https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
+Step 4 - Launch Jupyter Notebook & run the notebook
 
 ## Required dependencies
 
