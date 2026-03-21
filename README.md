@@ -14,6 +14,7 @@ Through comparative experimentation and performance evaluation using metrics suc
 ## Setup Instructions
 
 Step 1 - Before creating a virtual environment, clone this directory using URL: https://github.com/hahmed2k/Alzheimers-Project.git
+
 Step 2 - To avoid version-related issues, set up a virtual environment & install dependencies, run:
 
 ### For Mac/Linux:
