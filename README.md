@@ -32,6 +32,10 @@ Project requires Python versions 3.8+ and the following libraries:
 - PyTorch: The core deep learning framework used to build, train, and optimize MLP and TabTransformer models
 - Matplotlib & Seaborn: Used for EDA, and related visualizations
 
+Dependencies can be installed by running the following in terminal:
+
+pip install torch pandas numpy scikit-learn matplotlib seaborn
+
 ## How to train the model
 
 ## How to evaluate the model
