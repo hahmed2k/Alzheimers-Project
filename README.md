@@ -19,10 +19,7 @@ Step 2 - Once the dataset is downloaded, place it in a folder titled 'data'
 
 Step 3 - Download 'Alzheimer's Disease Prediction - Complete Notebook.ipynb' file
 
-Step 4 - Run the following in the terminal
-```
-pip install -r requirements.txt
-```
+Step 4 - Make sure dependencies listed below are installed
 
 Step 5 - Launch Jupyter Notebook & run the notebook
 
