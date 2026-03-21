@@ -42,13 +42,33 @@ pip install torch pandas numpy scikit-learn matplotlib seaborn
 
 ## How to Train the Model
 
-Training is performed directly within the notebook.
+Training is performed directly within the notebook file.
 
-After completing setup, run the notebook cells sequentially until reaching the **Main Training & Evaluation** section. This step loads and preprocesses the dataset, creates data loaders, initializes the models (MLP and TabTransformer), and begins training.
+After setup instructions, run the notebook cells sequentially until reaching the **Main Training & Evaluation** section. This step loads and preprocesses the dataset, creates data loaders, initializes the models (MLP and TabTransformer), and begins training.
 
 Both models are trained using weighted binary cross-entropy loss, Adam optimization, learning rate scheduling, and early stopping based on validation performance. The best model weights are automatically saved during training.
 
 
 ## How to evaluate the model
+
+Evaluation is also handled directly in the notebook after each model finishes training.
+
+The evaluate_model(...) function is used on the held-out test set to compute:
+
+- Accuracy
+- F1-Score
+- ROC-AUC
+- Precision
+- Recall
+- Specificity
+- Confusion Matrix
+
+After training each model, the notebook:
+
+prints the full set of test metrics
+plots training and validation loss curves
+displays a confusion matrix heatmap
+
+To evaluate models, simply run the Main Training & Evaluation section after training. The notebook will automatically evaluate both the MLP and TabTransformer on the test set and display the corresponding performance summaries and plots.
 
 ## Expected Outputs
