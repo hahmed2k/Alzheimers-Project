@@ -75,9 +75,9 @@ The `evaluate_model` function is used on the held-out test set to compute:
 
 After training each model, the notebook:
 
-prints the full set of test metrics
-plots training and validation loss curves
-displays a confusion matrix heatmap
+- prints the full set of test metrics
+- plots training and validation loss curves
+- displays a confusion matrix heatmap
 
 To evaluate models, simply run the Main Training & Evaluation section after training. The notebook will automatically evaluate both the MLP and TabTransformer on the test set and display the corresponding performance summaries and plots.
 
