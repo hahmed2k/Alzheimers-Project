@@ -23,7 +23,7 @@ Step 4 - Make sure dependencies (listed below) are installed
 
 Step 5 - Launch Jupyter Notebook & run the notebook
 
-## Required dependencies
+## Required Dependencies
 
 Project requires Python versions 3.8+ and the following libraries:
 - Pandas: Used for data loading, cleaning, and structured manipulation of Alzheimer's dataset
@@ -61,7 +61,6 @@ Training is performed directly within the notebook file.
 After setup instructions, run the notebook cells sequentially until reaching the **Main Training & Evaluation** section. This step loads and preprocesses the dataset, creates data loaders, initializes the models (MLP and TabTransformer), and begins training.
 
 Both models are trained using weighted binary cross-entropy loss, Adam optimization, learning rate scheduling, and early stopping based on validation performance. The best model weights are automatically saved during training.
-
 
 ## How to Evaluate the Model
 
