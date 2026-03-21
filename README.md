@@ -14,6 +14,7 @@ Through comparative experimentation and performance evaluation using metrics suc
 ## Setup Instructions
 
 Step 1 - Download dataset: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
+Note: Once dataset is downloaded, place it in folder titled 'data'
 
 Step 2 - Download 'Alzheimer's Disease Prediction - Complete Notebook.ipynb' file.
 
