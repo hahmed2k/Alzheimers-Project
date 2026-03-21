@@ -34,7 +34,9 @@ Project requires Python versions 3.8+ and the following libraries:
 
 Dependencies can be installed by running the following in terminal:
 
+```
 pip install torch pandas numpy scikit-learn matplotlib seaborn
+```
 
 ## How to train the model
 
