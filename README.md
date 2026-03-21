@@ -71,7 +71,7 @@ To evaluate models, simply run the Main Training & Evaluation section after trai
 
 ## Expected Outputs
 
-When the notebook is executed successfully, the following outputs will be produced:
+Running the notebook sequentially produces:
 
 * Training logs showing epoch-wise training and validation loss
 * Model performance metrics on the test set, including Accuracy, Precision, Recall, F1-Score, ROC-AUC, and Specificity
