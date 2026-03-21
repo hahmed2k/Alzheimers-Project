@@ -38,8 +38,6 @@ Dependencies can be installed by running the following in terminal:
 pip install torch pandas numpy scikit-learn matplotlib seaborn
 ```
 
-## How to train the model
-
 ## How to Train the Model
 
 Training is performed directly within the notebook file.
@@ -49,7 +47,7 @@ After setup instructions, run the notebook cells sequentially until reaching the
 Both models are trained using weighted binary cross-entropy loss, Adam optimization, learning rate scheduling, and early stopping based on validation performance. The best model weights are automatically saved during training.
 
 
-## How to evaluate the model
+## How to Evaluate the Model
 
 Evaluation is also handled directly in the notebook after each model finishes training.
 
@@ -72,3 +70,14 @@ displays a confusion matrix heatmap
 To evaluate models, simply run the Main Training & Evaluation section after training. The notebook will automatically evaluate both the MLP and TabTransformer on the test set and display the corresponding performance summaries and plots.
 
 ## Expected Outputs
+
+When the notebook is executed successfully, the following outputs will be produced:
+
+* Training logs showing epoch-wise training and validation loss
+* Model performance metrics on the test set, including Accuracy, Precision, Recall, F1-Score, ROC-AUC, and Specificity
+* Training and validation loss curves for both the MLP and TabTransformer models
+* Confusion matrix visualizations for each model
+* Exploratory Data Analysis (EDA) plots (diagnosis distribution, feature boxplots, correlation heatmaps, and feature importance rankings)
+
+These outputs allow for performance comparison between model architectures and help assess how well each model generalizes to unseen data.
+
