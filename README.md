@@ -91,5 +91,5 @@ Running notebook sequentially produces:
 * Confusion matrix visualizations for each model
 * Exploratory Data Analysis (EDA) plots (diagnosis distribution, feature boxplots, correlation heatmaps, and feature importance rankings)
 
-The outputs allow for seamless performance comparison between models and help assess how well each model generalizes to unseen data.
+Lastly, to support reproducibility, fixed random seeds were set for both NumPy and PyTorch. These outputs allow for seamless performance comparison between models and help assess how well each model generalizes to unseen data.
 
