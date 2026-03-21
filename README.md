@@ -14,16 +14,17 @@ Through comparative experimentation and performance evaluation using metrics suc
 ## Setup Instructions
 
 Step 1 - Download dataset: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
-Note: Once dataset is downloaded, place it in folder titled 'data'
 
-Step 2 - Download 'Alzheimer's Disease Prediction - Complete Notebook.ipynb' file.
+Step 2 - Once the dataset is downloaded, place it in a folder titled 'data'
 
-Step 3 - Run the following in terminal
+Step 3 - Download 'Alzheimer's Disease Prediction - Complete Notebook.ipynb' file.
+
+Step 4 - Run the following in terminal
 ```
 pip install -r requirements.txt
 ```
 
-Step 4 - Launch Jupyter Notebook & run the notebook
+Step 5 - Launch Jupyter Notebook & run the notebook
 
 ## Required dependencies
 
