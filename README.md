@@ -63,7 +63,7 @@ Both models are trained using weighted binary cross-entropy loss, Adam optimizat
 
 Evaluation is also handled directly in the notebook after each model finishes training.
 
-The evaluate_model(...) function is used on the held-out test set to compute:
+The evaluate_model function is used on the held-out test set to compute:
 
 - Accuracy
 - F1-Score
