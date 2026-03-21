@@ -40,6 +40,15 @@ pip install torch pandas numpy scikit-learn matplotlib seaborn
 
 ## How to train the model
 
+## How to Train the Model
+
+Training is performed directly within the notebook.
+
+After completing setup, run the notebook cells sequentially until reaching the **Main Training & Evaluation** section. This step loads and preprocesses the dataset, creates data loaders, initializes the models (MLP and TabTransformer), and begins training.
+
+Both models are trained using weighted binary cross-entropy loss, Adam optimization, learning rate scheduling, and early stopping based on validation performance. The best model weights are automatically saved during training.
+
+
 ## How to evaluate the model
 
 ## Expected Outputs
