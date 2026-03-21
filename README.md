@@ -11,7 +11,7 @@ To address this problem, we design and implement two deep learning architectures
 Through comparative experimentation and performance evaluation using metrics such as accuracy, F1-score, and ROC-AUC, this project aims to assess the effectiveness of modern neural architectures for tabular healthcare prediction tasks and to provide insights into the predictive importance of cognitive, behavioral, and physiological features associated with Alzheimer’s disease.
 
 
-## Setup Instructions
+## Setup Instructions/Reproducing Results
 
 Step 1 - Download dataset: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
 
@@ -37,6 +37,22 @@ Dependencies can be installed by running the following in terminal:
 ```
 pip install torch pandas numpy scikit-learn matplotlib seaborn
 ```
+
+## How to Preprocess the Data
+
+Data preprocessing is handled automatically within the notebook through the `load_and_preprocess_data()` function.
+
+This pipeline performs the following steps:
+
+* Loads the Alzheimer’s disease dataset and removes non-informative columns
+* Engineers additional clinical features (e.g., blood pressure interaction and cholesterol ratios)
+* Splits the data into stratified training, validation, and test sets
+* Standardizes numerical features using `StandardScaler`
+* Encodes categorical features using integer representations for embedding layers
+* Computes class weights to address moderate class imbalance
+* Converts the processed data into PyTorch tensors and creates `DataLoader` objects for model training
+
+To preprocess the data, simply run the preprocessing cells before starting model training.
 
 ## How to Train the Model
 
