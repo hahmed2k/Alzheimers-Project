@@ -37,7 +37,7 @@ pip install torch pandas numpy scikit-learn matplotlib seaborn
 
 ## How to Preprocess the Data
 
-Data preprocessing is handled automatically within the notebook through the `load_and_preprocess_data()` function.
+Data preprocessing is handled automatically within the notebook through the `load_and_preprocess_data` function.
 
 This pipeline performs the following steps:
 
@@ -63,7 +63,7 @@ Both models are trained using weighted binary cross-entropy loss, Adam optimizat
 
 Evaluation is also handled directly in the notebook after each model finishes training.
 
-The evaluate_model function is used on the held-out test set to compute:
+The `evaluate_model` function is used on the held-out test set to compute:
 
 - Accuracy
 - F1-Score
