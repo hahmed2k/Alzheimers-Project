@@ -17,7 +17,7 @@ Step 1 - Download dataset: https://www.kaggle.com/datasets/rabieelkharoua/alzhei
 
 Step 2 - Once the dataset is downloaded, place it in a folder titled 'data'
 
-Step 3 - Download 'Alzheimer's Disease Prediction - Complete Notebook.ipynb' file
+Step 3 - Download 'Alzheimer's Disease Prediction - Complete Notebook.ipynb' file (Found in this repository)
 
 Step 4 - Make sure dependencies (listed below) are installed
 
