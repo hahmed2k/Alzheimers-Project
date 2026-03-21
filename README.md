@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project investigates the use of deep learning models to predict Alzheimer’s disease diagnosis from structured clinical and lifestyle data. Alzheimer’s disease is a progressive neurodegenerative condition that affects cognitive functioning and daily living, making early risk identification an important objective in healthcare analytics.
+This project explores the use of deep learning models for predicting Alzheimer's disease diagnosis using structured clinical and lifestyle data. Alzheimer’s disease is a progressive neurodegenerative condition that affects memory, cognitive functioning, and daily living, making early identification an important objective in healthcare analytics.
 
-We formulate the task as a binary classification problem using heterogeneous tabular features, including demographic information, medical history, clinical measurements, cognitive assessments, and reported symptoms. To address challenges such as feature scaling, moderate class imbalance, and nonlinear feature interactions, we design and implement two neural architectures in PyTorch: a feedforward multilayer perceptron (MLP) baseline and a transformer-based TabTransformer that leverages self-attention to model relationships between features.
+We formulate the task as a binary classification problem using heterogeneous tabular features, including demographic information, medical history, clinical measurements, cognitive assessments, and reported symptoms. To address challenges such as feature scaling, moderate class imbalance, and nonlinear feature interactions, two deep learning architectures were implemented in PyTorch: a baseline feedforward multilayer perceptron (MLP) and a transformer-based TabTransformer that leverages self-attention to model relationships between features.
 
-Through feature engineering, categorical embeddings, weighted loss functions, and early stopping strategies, the project evaluates the effectiveness of modern deep learning approaches for tabular healthcare prediction using metrics such as accuracy, F1-score, and ROC-AUC.
+Through feature engineering, categorical embeddings, weighted loss functions, and early stopping strategies, this project evaluates the effectiveness of deep learning approaches for tabular healthcare prediction using metrics such as accuracy, F1-score, and ROC-AUC.
 
 ## Setup Instructions/Reproducing Results
 
